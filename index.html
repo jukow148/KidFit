@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fitting room</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Signika+Negative:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+
+  <section>
+    <div class="container">
+      <div class="title"> Wybierz płeć:
+      </div>
+      <div class="dollDiv">
+        <div id="boy" class="doll"</div>
+        <div id="girl" class="doll"</div>
+      </div>
+      <div class="title" id="data"> Podaj dane:
+      </div>
+
+      <form class="form">
+        <div class="flexboxDiv"
+          <div class="formDiv">
+            <label for="tall">wzrost</label><br>
+            <input type="text" id="tall" name="tall" value="" placeholder="cm" pattern="[0-3]*" maxlength="3">
+          </div>
+
+          <div class="formDiv">
+            <label for="weight">waga</label><br>
+            <input type="text" id="weight" name="weight" value="" placeholder="kg" pattern="[0-2]*" maxlength="2">
+          </div>
+
+          <div class="formDiv">
+            <label for="age">wiek</label><br>
+            <input type="text" id="age" name="age" value="" placeholder="lata" pattern="[0-2]*" maxlength="2">
+          </div>
+        </div>
+
+        <button type="button" id="buttonId">Sprawdź rozmiar!</button>
+      </form>
+    </div>
+  </section>
+
+  <br>
+
+  <section>
+
+    <div class="container">
+      <div class="title"> Czy pasuje?</div>
+      <div id="boy" class="doll"</div>
+    </div>
+
+    <aricle>
+      <div class="lines"></div>
+      <div class="checked ch1">&#x2713</div>
+      <div class="info i1">obwód klatki piersiowej OK</div>
+      <div class="checked ch2">&#x2713</div>
+      <div class="info i2">obwód pasa OK</div>
+      <div class="checked ch3">&#x2713</div>
+      <div class="info i3">długość rękawa OK</div>
+      <div class="lines2"></div>
+      <div class="title" id="data"> Porównaj rozmiary:</div>
+    </article>
+
+    <article id="sizes">
+      <div class="circleDiv">
+        <p class="pSize"><br>104</p>
+      </div>
+
+      <div class="circleDiv" id="green">
+        <p class="pSize"><br>110 <br> &#x2713</p>
+      </div>
+
+      <div class="circleDiv">
+        <p class="pSize"><br>116</p>
+      </div>
+    </article>
+
+  </section>
+
+</body>
+</html>

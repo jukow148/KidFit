@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 700px;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.doll {
+  height: 440px;
+  width: 180px;
+  background-repeat:no-repeat;
+}
+
+#boy {
+  background-image: url("../images/boy_burned.png");
+  filter: grayscale(100%);
+}
+#boy:hover {
+  filter: none;
+}
+#girl {
+  background-image: url("../images/girl_burned.png");
+  filter: grayscale(100%);
+  position: absolute;
+  left: 210px;
+  top: 60px;
+}
+.title {
+  height: 50px;
+  background: black;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+#data {
+  position: absolute;
+  top: 500px;
+}
+.form {
+  position: absolute;
+  text-align: center;
+  top: 570px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  font-size: 1.2em;
+}
+input {
+  width: 30%;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+input::-webkit-input-placeholder {
+  text-align: center;
+}
+#buttonId {
+  position: absolute;
+  top: 640px;
+  left: 120px;
+  background: #000000;
+  border-radius: 28px;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  outline: none;
+}
+
+#buttonId:hover {
+  background: #FB0000;
+}
+#sizes{
+  position: absolute;
+  top: 580px;
+  left: 70px;
+  display: flex;
+  flex-direction: row;
+}
+.circleDiv {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  background-color: #FB0000;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2em;
+  color: white;
+}
+#green {
+  background-color: green;
+  height: 90px;
+  width: 90px;
+}
+.lines {
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 55px;
+  width: 150px;
+}
+.lines2 {
+  position: absolute;
+  top: 250px;
+  left: 165px;
+  border-bottom: 1px solid black;
+  height: 55px;
+  width: 85px;
+}
+.checked {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  align-content: center;
+
+}
+.ch1 {
+  position: absolute;
+  top: 210px;
+  left: 85px;
+}
+.ch2 {
+  position: absolute;
+  top: 265px;
+  left: 85px;
+}
+.ch3 {
+  position: absolute;
+  top: 296px;
+  left: 147px;
+}
+.i1 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.i2 {
+  position: absolute;
+  top: 255px;
+  left: 200px;
+}
+.i3 {
+  position: absolute;
+  top: 285px;
+  left: 200px;
+}
